@@ -19,7 +19,7 @@ ghostunnel-v1.4.1-darwin-amd64-with-pkcs11 client \
 [45922] 2019/09/17 17:42:15.380226 starting ghostunnel in client mode
 [45922] 2019/09/17 17:42:15.380326 metrics enabled; reporting metrics via POST to http://localhost:8081
 [45922] 2019/09/17 17:42:15.528455 using target address api.some.horse:443
-[45922] 2019/09/17 17:42:15.532116 listening for connections on localhost:8081
+[45922] 2019/09/17 17:42:15.532116 listening for connections on localhost:8080
 ```
 
 produces:
