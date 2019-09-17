@@ -10,7 +10,11 @@ Any GET will produce prometheus metrics available from the latest POST.
 ./main &
 Starting server for testing HTTP POST...
 
-ghostunnel-v1.4.1-darwin-amd64-with-pkcs11 client --listen localhost:8080 --target some.api.horse:443 --disable-authentication --metrics-url http://localhost:8080
+ghostunnel-v1.4.1-darwin-amd64-with-pkcs11 client \
+	--listen localhost:8080 \
+	--target some.api.horse:443 \
+	--disable-authentication \
+	--metrics-url http://localhost:8080
 ```
 
 produces:
